@@ -1,7 +1,7 @@
 <?php require_once 'header.php'; ?>
 
     <div class="views">
-        <div class="container pt-md-4 pb-3">
+        <div class="container pt-md-1 pt-xl-4 pb-3">
             <div class="row justify-content-center pt-md-5 pb-3">
                 <div class="col-8 text-start col-md-3 mt-5 pt-5">
                     <img src="./assets/media/selfie.jpg" class="rounded-circle" alt="A picture of myself" width="100%"
@@ -9,9 +9,20 @@
                 </div>
             </div>
             <div class="pt-4 container text-center">
-                <h1 class="fs-1 fw-bold">Hi, I'm <span class="head-primary">Daniël</span></h1>
-                <p class="fs-5 mt-3 fw-bolder">I'm a <span class="head-primary">software developer</span> from the
-                    Netherlands</p>
+                <div class="container">
+                    <div class="d-inline-flex">
+                        <h1 id="toptext" class="fs-1 fw-bold typethis">Hi, I'm <span class="head-primary">Daniël</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="d-inline-flex">
+                        <p id="bottomtext" class="w-0 fs-5 mt-3 fw-bolder typethis">I'm a <span
+                                    class="head-primary">software developer</span>
+                            from the
+                            Netherlands&nbsp</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container mt-md-5 mt-2">
@@ -63,13 +74,35 @@
                     </div>
                     <div class="bottombar">
                         <div class="container pt-3">
-                            <p><code><span class="text-yellow fw-bold">git</span> init</code></p>
-                            <p><code><span>git</span> add .</code></p>
-                            <p><code><span>git</span> remote add origin master <span class="text-white-50">https://github.com/DanielPekel/portfolio</span></code>
-                            </p>
-                            <p><code><span>git</span> commit <span class="text-white-50">-m</span> <span
-                                            class="text-blue">Pilot</span></code></p>
-                            <p><code><span>git</span> push</code></p>
+                            <div class="container">
+                                <div class="d-inline-flex">
+                                    <p><code id="animate3" class="typethis"><span class="text-yellow fw-bold">git</span> init</code></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="d-inline-flex">
+                                    <p><code id="animate4" class="typethis"><span>git</span> add .</code></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="d-inline-flex">
+                                    <p><code id="animate5" class="typethis2"><span>git</span> remote add origin master <span
+                                                    class="text-white-50">https://github.com/DanielPekel/portfolio</span></code>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="d-inline-flex">
+                                    <p><code id="animate6" class="typethis"><span>git</span> commit <span class="text-white-50">-m</span>
+                                            <span
+                                                    class="text-blue">Pilot</span></code></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="d-inline-flex">
+                                    <p><code id="animate7" class="typethis"><span>git</span> push</code></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -219,6 +252,96 @@
                         <div class="row">
                             <div class="col-4"><i class="fs-1 text-indigo fa-brands fa-bootstrap"></i></div>
                             <div class="col-8 text-start"><h3>Bootstrap</h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="views pt-5">
+        <div class="container pt-5 text-center">
+            <h2 class="text-white pt-5 fw-bold fs-1">Skills I want to learn</h2>
+            <div class="row justify-content-center pt-md-5 mt-3 skillcards">
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-brands fa-react"></i></div>
+                            <div class="col-8 text-start"><h3>React</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-brands fa-python"></i></div>
+                            <div class="col-8 text-start"><h3>Python</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><img width="35%" height="auto" src="./assets/media/flutter_icon.png"
+                                                    alt="flutter icon"/></div>
+                            <div class="col-8 text-start"><h3>Flutter</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-brands fa-linux"></i></div>
+                            <div class="col-8 text-start"><h3>Linux</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><img width="35%" height="auto" src="./assets/media/csharp_icon.png"
+                                                    alt="c sharp icon"/></div>
+                            <div class="col-8 text-start"><h3>C#</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><img width="35%" height="auto" src="./assets/media/firebase_icon.webp"
+                                                    alt="firebase icon"/></div>
+                            <div class="col-8 text-start"><h3>Firebase</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-solid fa-database"></i></div>
+                            <div class="col-8 text-start"><h3>NoSQL</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-brands fa-java"></i></div>
+                            <div class="col-8 text-start"><h3>Java</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-brands fa-golang"></i></div>
+                            <div class="col-8 text-start"><h3>GO</h3></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"><i class="fs-1 text-white fa-brands fa-swift"></i></div>
+                            <div class="col-8 text-start"><h3>Swift</h3></div>
                         </div>
                     </div>
                 </div>
