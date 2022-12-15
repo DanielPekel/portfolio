@@ -16,6 +16,11 @@ $(document).ready(function () {
         await new Promise(resolve => setTimeout(resolve, 1500));
         $('#toptext').removeClass('foranimate');
     }
+    async function animate2() {
+        await new Promise(resolve => setTimeout(resolve, 2000));
+        $('#animate3').removeClass('w-0');
+        $('#bottomtext').addClass('foranimate3');
+    }
 
     // animation for top text
     $('#toptext').ready(function () {
@@ -30,8 +35,7 @@ $(document).ready(function () {
     // animation for git command panel
     $(window).scroll(function () {
         if ($('#animate3 ').isInViewport()) {
-            $('#animate3').addClass('foranimate3');
-            console.log('success.')
+           animate2();
         } else {
 
             console.log('No success.')

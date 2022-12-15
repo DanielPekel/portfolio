@@ -76,7 +76,8 @@
                         <div class="container pt-3">
                             <div class="container">
                                 <div class="d-inline-flex">
-                                    <p><code id="animate3" class="typethis"><span class="text-yellow fw-bold">git</span> init</code></p>
+                                    <p><code id="animate3" class="typethis"><span class="text-yellow fw-bold">git</span>
+                                            init</code></p>
                                 </div>
                             </div>
                             <div class="container">
@@ -86,14 +87,16 @@
                             </div>
                             <div class="container">
                                 <div class="d-inline-flex">
-                                    <p><code id="animate5" class="typethis2"><span>git</span> remote add origin master <span
+                                    <p><code id="animate5" class="typethis2"><span>git</span> remote add origin master
+                                            <span
                                                     class="text-white-50">https://github.com/DanielPekel/portfolio</span></code>
                                     </p>
                                 </div>
                             </div>
                             <div class="container">
                                 <div class="d-inline-flex">
-                                    <p><code id="animate6" class="typethis"><span>git</span> commit <span class="text-white-50">-m</span>
+                                    <p><code id="animate6" class="typethis"><span>git</span> commit <span
+                                                    class="text-white-50">-m</span>
                                             <span
                                                     class="text-blue">Pilot</span></code></p>
                                 </div>
@@ -344,6 +347,42 @@
                             <div class="col-8 text-start"><h3>Swift</h3></div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="views pt-5">
+        <div class="container pt-5 text-center">
+            <h2 class="text-white pt-5 fw-bold fs-1">My hobbies</h2>
+            <div class="row justify-content-center pt-md-5 mt-3">
+
+                <div class="col-12 col-md-5">
+                    <img src="./assets/media/fotoOfMe.jpg" width="100%" height="auto" alt="foto of me"
+                         class="rounded-5"/>
+                </div>
+                <div class="col-12 col-md-7">
+                    <p class="text-white">If I'm not coding you can find me at a skate park or a gym. I started to
+                        notice that exercise was
+                        missing from my life, it gives me an energy rush and motivates me for days.<br/><br/>
+                        I'm also a big fan of formula 1, one of my goals is to be at a race day.<br/><br/>
+                        I also play guitar a bit (Red hot chili peppers is branded into my brain :D).<br/><br/>
+                        Besides all these hobbies is one of them also coding, I did it as a hobby, and it eventually
+                        turned into my job.</p>
+                    <p class="text-indigo fw-bold fs-4">"If your hobby becomes your job, you will never work a day in
+                        your life"
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="views pt-5">
+        <div class="container pt-5 text-center">
+            <h2 class="text-white pt-5 fw-bold fs-1">Contact</h2>
+            <div class="row justify-content-center pt-md-5 mt-3">
+                <div class="col-12 col-md-5">
+                    <a href="tel:684054534" class="text-white"><h4>+31 6 84054534</h4></a>
+                    <a href="mailto:contact@danielpekel.nl" class="text-white"><h4>contact@danielpekel.nl</h4></a>
                 </div>
             </div>
         </div>
